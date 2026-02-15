@@ -1,0 +1,26 @@
+# АНО «Академия Молодых Лидеров» — управление доступом поисковых роботов
+# https://ano-aml.ru/robots.txt
+
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /search/
+Disallow: /profile/
+Allow: /
+
+# AI-боты (ChatGPT, Claude, Perplexity, Google AI)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Карта сайта
+Sitemap: https://ano-aml.ru/sitemap.xml

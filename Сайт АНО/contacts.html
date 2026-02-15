@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — Академия Молодых Лидеров</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><span class="material-symbols-outlined">groups</span></div>
+        <span class="logo-text">Академия Молодых Лидеров</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="about.html" class="nav-link">Об АНО</a>
+        <a href="directions/index.html" class="nav-link">Направления</a>
+        <a href="projects.html" class="nav-link">Проекты</a>
+        <a href="partners/index.html" class="nav-link">Партнёрам</a>
+        <a href="students.html" class="nav-link">Студентам</a>
+        <a href="media.html" class="nav-link">Медиа</a>
+        <a href="contacts.html" class="nav-link" style="color: var(--color-secondary);">Контакты</a>
+        <a href="contacts.html#support" class="btn btn-accent"><span class="material-symbols-outlined" style="font-size: 20px;">volunteer_activism</span>Поддержать</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Меню">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Контакты</h1>
+      <p>Свяжитесь с нами</p>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="directions-grid">
+          <div class="card">
+            <h3 style="margin-bottom: 16px; color: var(--color-primary);"><span class="material-symbols-outlined" style="vertical-align: middle;">mail</span> E-mail</h3>
+            <p><a href="mailto:info@aml-nn.ru">info@aml-nn.ru</a></p>
+          </div>
+          <div class="card">
+            <h3 style="margin-bottom: 16px; color: var(--color-primary);"><span class="material-symbols-outlined" style="vertical-align: middle;">call</span> Телефон</h3>
+            <p><a href="tel:+78314123456">+7 (831) 412-34-56</a></p>
+          </div>
+          <div class="card">
+            <h3 style="margin-bottom: 16px; color: var(--color-primary);"><span class="material-symbols-outlined" style="vertical-align: middle;">location_on</span> Адрес</h3>
+            <p>603950, г. Нижний Новгород, ул. Примерная, д. 1</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--color-white);">
+      <div class="container">
+        <h2 class="section-title">Карта</h2>
+        <div class="card" style="min-height: 300px; display: flex; align-items: center; justify-content: center; background: var(--color-bg);">
+          <p style="color: var(--color-text-light);">Здесь может быть размещена карта (Яндекс.Карты, Google Maps). Для подключения укажите координаты.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="partner">
+      <div class="container">
+        <h2 class="section-title">Форма обратной связи</h2>
+        <div class="card" style="max-width: 600px; margin: 0 auto;">
+          <form action="#" method="post">
+            <div class="form-group">
+              <label>Имя *</label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="form-group">
+              <label>E-mail *</label>
+              <input type="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label>Телефон</label>
+              <input type="tel" name="phone">
+            </div>
+            <div class="form-group">
+              <label>Тема обращения</label>
+              <select name="topic">
+                <option value="">Выберите</option>
+                <option value="general">Общий вопрос</option>
+                <option value="partner">Партнёрство</option>
+                <option value="student">Вступление (студент)</option>
+                <option value="media">Медиа / журнал</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Сообщение *</label>
+              <textarea name="message" required></textarea>
+            </div>
+            <div class="form-group checkbox-group">
+              <input type="checkbox" name="consent" id="consent" required>
+              <label for="consent">Я даю согласие на обработку персональных данных в соответствии с <a href="privacy.html">политикой конфиденциальности</a> *</label>
+            </div>
+            <button type="submit" class="btn btn-accent">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--color-white);">
+      <div class="container">
+        <h2 class="section-title">Социальные сети</h2>
+        <p style="text-align: center;">
+          <a href="#" class="btn btn-outline" style="margin: 8px;">ВКонтакте</a>
+          <a href="#" class="btn btn-outline" style="margin: 8px;">Telegram</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="support">
+      <div class="container">
+        <h2 class="section-title">Реквизиты для пожертвований</h2>
+        <div class="card">
+          <p><strong>Полное наименование:</strong> Автономная некоммерческая организация «Академия Молодых Лидеров»</p>
+          <p><strong>ИНН:</strong> 5260123456 | <strong>КПП:</strong> 526001001 | <strong>ОГРН:</strong> 1234567890123</p>
+          <p><strong>Банк:</strong> ПАО «Сбербанк» | <strong>Р/с:</strong> 40703810XXXXXXXXXXXX | <strong>БИК:</strong> 042202603</p>
+          <p><strong>Назначение платежа:</strong> Добровольное пожертвование на уставную деятельность</p>
+          <p style="margin-top: 16px; color: var(--color-text-light); font-size: 0.95rem;">Средства используются на реализацию программ АНО: тренинги, стажировки, мероприятия, медиа.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h4 class="footer-title">АНО «Академия Молодых Лидеров»</h4>
+        <p>603950, г. Нижний Новгород, ул. Примерная, д. 1</p>
+        <p style="margin-top: 8px;">ИНН 5260123456 | ОГРН 1234567890123</p>
+      </div>
+      <div>
+        <h4 class="footer-title">Контакты</h4>
+        <ul class="footer-links">
+          <li><a href="mailto:info@aml-nn.ru">info@aml-nn.ru</a></li>
+          <li><a href="tel:+78314123456">+7 (831) 412-34-56</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <a href="privacy.html" style="color: rgba(255,255,255,0.9);">Политика конфиденциальности</a>
+      <div class="footer-legal">© 2025 АНО «Академия Молодых Лидеров»</div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
